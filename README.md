@@ -1,2 +1,2 @@
-# linuxconfig
+# LinuxConfig
 My Linux Config Files
