@@ -1,0 +1,20 @@
+#!/bin/bash
+
+
+echo "Installing Applications"
+
+sudo apt install calibre chromium chromium-libpdf chromium-pepper-flash curl dropbox git guake gvim htop openvpn playonlinux redshift samba screenfetch steam terminator tor ubuntu-restricted-extras unity-tweak-tool vim vlc cuze wine xchat zsh -y
+
+echo "Finished Installing Applications"
+
+
+echo "Setting Zsh as the Default Shell"
+
+chsh -s $(which zsh)
+
+echo "Finished Setting Zsh as the Default Shell"
+
+echo "Please Log Out and Log Back In"
+
+
+exit 0
